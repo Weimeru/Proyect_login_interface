@@ -10,7 +10,10 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
-    width: 450px;
+    background-color: #161717;
+}
+.container h3{
+    color:white;
 }
 .buttons{
     align-self: center;
@@ -77,7 +80,7 @@
     border-top:1px solid #ccc;
 }
 .separator span{
-    color: #8b8b8b;
+    color: white;
 }
 
 .section-inputs{
@@ -93,10 +96,11 @@ label{
 }
 label span{
     font-weight: 700;
+    color:white;
 }
 .section-inputs label input {
     width:95%;
-    background-color: #f3f3f4;
+    background-color: #212121;
     border:none;
     padding: 10px 5px;
     border-radius: 10px;
@@ -105,7 +109,7 @@ label span{
 }
 label input {
     width:100%;
-    background-color: #f3f3f4;
+    background-color: #212121;
     border:none;
     padding: 10px 5px;
     border-radius: 10px;
@@ -114,7 +118,7 @@ label input {
     transition: background-color 0.2s, border 0.2s, box-shadow 0.2s; 
 }
 label input:hover{
-    background-color: white;
+    background-color: #454045;
     border: solid 1px #f3f3f4;
     box-shadow: 0 0 4px #8b8b8b
 }
